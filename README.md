@@ -23,7 +23,7 @@ This is a prepared php-apache image with the [required settings](https://ts-rank
 2. Copy the TSN-Ranksystem application into the `www` folder
 3. Follow instructions on http://localhost:8080/install.php
 
-// TODO: Image of install.php DB config
+![Installation Config](db-config.png)
 
 **docker-compose.yml**
 
