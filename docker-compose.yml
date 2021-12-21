@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+    ranksystem:
+      image: serverlein/tsn-ranksystem-webserver:latest
+      restart: always
+      ports:
+        - 8080:80
+      networks:
+        tsnet:
+          aliases:
+            - tsnet-ranksystem
+      volumes:
+        - ./www/:/var/www/html/
+
+    ranksystem-db:
+      image: mariadb:10.6
+      restart: always
+      environment:
+        MARIADB_USER: ranksystem
+        MARIADB_PASSWORD: ranksystem
+        MARIADB_ROOT_PASSWORD: root
+        MARIADB_DATABASE: ranksystem
+      networks:
+        tsnet:
+          aliases:
+            - tsnet-ranksystem-db
+      volumes:
+        - ./ranksystem-db/:/var/lib/mysql
+
+networks:
+    tsnet:
+      driver: bridge
