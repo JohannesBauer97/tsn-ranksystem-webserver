@@ -1,6 +1,7 @@
 name: ci
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 12 15 * *'
   push:
