@@ -5,6 +5,8 @@
 
 This is a prepared php-apache image with the [required settings](https://ts-ranksystem.com/#linux) to run TSN-Ranksystem.
 
+At 12PM on every 15th of the month, an up-to-date image is built and pushed to ensure security updates.
+
 ## Quick Links
 * TSN-Ranksystem: [GitHub](https://github.com/Newcomer1989/TSN-Ranksystem) / [Website](https://ts-ranksystem.com/)
 * Docker Hub: https://hub.docker.com/r/serverlein/tsn-ranksystem-webserver
