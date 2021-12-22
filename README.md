@@ -1,7 +1,14 @@
-# Docker webserver to host TSN-Ranksystem [![Docker Publish](https://github.com/JohannesBauer97/tsn-ranksystem-webserver/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/JohannesBauer97/tsn-ranksystem-webserver/actions/workflows/docker-publish.yml) ![](https://img.shields.io/docker/pulls/serverlein/tsn-ranksystem-webserver)
+[![](https://github.com/JohannesBauer97/tsn-ranksystem-webserver/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/JohannesBauer97/tsn-ranksystem-webserver/actions/workflows/docker-publish.yml) 
+![](https://img.shields.io/docker/pulls/serverlein/tsn-ranksystem-webserver)
+![](https://img.shields.io/github/license/JohannesBauer97/tsn-ranksystem-webserver)
+# Docker webserver to host TSN-Ranksystem
 
-The [TSN-Ranksystem](https://github.com/Newcomer1989/TSN-Ranksystem) does not provide an official Docker image.
-This is a prepared php-apache image with the [required settings](https://ts-ranksystem.com/#linux).
+This is a prepared php-apache image with the [required settings](https://ts-ranksystem.com/#linux) to run TSN-Ranksystem.
+
+## Quick Links
+* TSN-Ranksystem: [GitHub](https://github.com/Newcomer1989/TSN-Ranksystem) / [Website](https://ts-ranksystem.com/)
+* Docker Hub: https://hub.docker.com/r/serverlein/tsn-ranksystem-webserver
+* Repository: https://github.com/JohannesBauer97/tsn-ranksystem-webserver
 
 ## Dependencies / Configuration of this webserver
 
