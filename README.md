@@ -1,4 +1,4 @@
-# Docker webserver to host TSN-Ranksystem
+# Docker webserver to host TSN-Ranksystem [![Docker Publish](https://github.com/JohannesBauer97/tsn-ranksystem-webserver/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/JohannesBauer97/tsn-ranksystem-webserver/actions/workflows/docker-publish.yml) ![](https://img.shields.io/docker/pulls/serverlein/tsn-ranksystem-webserver)
 
 The [TSN-Ranksystem](https://github.com/Newcomer1989/TSN-Ranksystem) does not provide an official Docker image.
 This is a prepared php-apache image with the [required settings](https://ts-ranksystem.com/#linux).
