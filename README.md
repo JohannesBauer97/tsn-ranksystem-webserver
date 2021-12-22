@@ -1,6 +1,6 @@
 [![](https://github.com/JohannesBauer97/tsn-ranksystem-webserver/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/JohannesBauer97/tsn-ranksystem-webserver/actions/workflows/docker-publish.yml) 
-![](https://img.shields.io/docker/pulls/serverlein/tsn-ranksystem-webserver)
-![](https://img.shields.io/github/license/JohannesBauer97/tsn-ranksystem-webserver)
+[![](https://img.shields.io/docker/pulls/serverlein/tsn-ranksystem-webserver)](https://hub.docker.com/r/serverlein/tsn-ranksystem-webserver)
+[![](https://img.shields.io/github/license/JohannesBauer97/tsn-ranksystem-webserver)](https://github.com/JohannesBauer97/tsn-ranksystem-webserver/blob/main/LICENSE)
 # Docker webserver to host TSN-Ranksystem
 
 This is a prepared php-apache image with the [required settings](https://ts-ranksystem.com/#linux) to run TSN-Ranksystem.
